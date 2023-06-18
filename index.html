@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Linked the CSS file -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Install Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Install Font Awesome -->
+    <script src="https://kit.fontawesome.com/05040208f6.js" crossorigin="anonymous"></script>
+
+    <!-- Install Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet"/>
+
+    <style>
+        @font-face {
+          font-family: "Montserrat-Black"; /* Name the font */
+          src: url("fonts/Montserrat/static/Montserrat-Black.ttf")
+            format("truetype"); /* Path to the .ttf file */
+        }
+    </style>
+
+    <title>TUR Electronics</title>
+  </head>
+  <body>
+    <header>
+
+        <section id="navigation-bar">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="">tur</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="">About</a>
+                            </li>
+                        </ul>    
+                    </div>
+                </nav>
+            </div>
+        </section>
+
+        <section id="title">
+            <dev class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h1>Get your electronic product repaired on time.</h1>
+                        <button class="btn btn-light btn-lg title-button" type="button" onclick="goToLocation()"><i class="fa-sharp fa-solid fa-location-dot"></i>  Location</button>
+                        <button class="btn btn-outline-light btn-lg title-button" type="button" onclick="gotWhatsApp()"><i class="fa-brands fa-whatsapp"></i>  WhatsApp</button>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="title-img" src="images/title-image.png" alt="">
+                    </div>
+                </div>
+            </dev>
+        </section>
+
+    </header>
+    <main>
+
+        <section id="features">
+            <div class="row">
+                <div class="col-lg-4">
+                    <i class="fa-solid fa-cart-shopping fa-5x icon"></i>
+                    <h2>Buy used Products</h2>
+                    <p>Buy used Refrigerator, Air Conditioner(of any kind), Washing Machine, Microwave Oven, juicer, blender, and all kinds of other home appliances.</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fa-solid fa-screwdriver-wrench fa-5x icon"></i>
+                    <h2>Repair Products</h2>
+                    <p>Repair your Refrigerator, Air Conditioner(of any kind), Washing Machine, Microwave Oven, juicer, blender, and all kinds of other home appliances.</p>
+                </div>
+                <div class="col-lg-4">
+                    <i class="fa-solid fa-s fa-5x icon"></i>
+                    <h2>Sale your products</h2>
+                    <p>Get good prices on your Refrigerator, Air Conditioner(of any kind), Washing Machine, Microwave Oven, juicer, blender, and all kinds of other home appliances.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="testimonial">
+            <h2>Testimonials</h2>
+            <img src="images/title-image.png" alt="">
+        </section> -->
+
+    </main>
+    <footer>
+
+        <section id="foot-bar">
+            <a class="footer-link" href="https://www.facebook.com/profile.php?id=100093384533888"><i class="fa-brands fa-facebook fa-xl footer-icon"></i></a>
+            <a class="footer-link" href="https://www.instagram.com/tur_electronics_/"><i class="fa-brands fa-instagram fa-xl footer-icon"></i></a>
+            <a class="footer-link" href="https://twitter.com/turElectronic"><i class="fa-brands fa-twitter fa-xl footer-icon"></i></a>
+            <a class="footer-link" href="mailto:turelectronics677@gmail.com?subject=Product%20Wanted&body=Dear%20recipient%2C%20..."><i class="fa-sharp fa-solid fa-envelope fa-xl footer-icon"></i></a>
+            <br>
+            <br>
+            <span class="copywrite">© TUR Electronics</span>
+        </section>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script>
+        function goToLocation() {
+            window.location.href = "https://www.google.com/maps/place/TUR+Electronics/@31.4028198,74.3587852,17z/data=!3m1!4b1!4m6!3m5!1s0x3919076744d20a31:0x648f7f674f09ff5d!8m2!3d31.4028152!4d74.3613655!16s%2Fg%2F11svgh3wbp?entry=ttu";
+        }
+        function gotWhatsApp() {
+            window.location.href = "https://wa.me/923279434794?text=Hello%2C%20I%20am%20interested%20in%20[Product].";
+        }
+    </script>
+  </body>
+</html>

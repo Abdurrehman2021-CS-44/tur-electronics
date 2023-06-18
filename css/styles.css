@@ -1,0 +1,110 @@
+/* ************************* Navigation Bar **************************** */
+
+#navigation-bar {
+    background-color: blueviolet;
+}
+
+h1 {
+    font-weight: bold;
+}
+.navbar-brand {
+    font-size: 2.5rem !important;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.navbar-nav {
+    padding: 0 8% 0 0;
+}
+
+.nav-item {
+    margin: 0 15% 0 0 !important;
+}
+
+.nav-link {
+    font-size: 1.2rem !important;
+}
+
+.container-fluid {
+    padding: 7% 15% 0 !important;
+}
+
+/* ************************* Title **************************** */
+
+#title {
+    background-color: blueviolet;
+    padding: 0 15% 3%;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem !important;
+    font-weight: bold !important;
+}
+
+.title-img {
+    margin-left: 12%;
+    width: 90%;
+}
+
+.title-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* ************************* Features **************************** */
+
+#features {
+    padding: 9% 12%;
+    text-align: center;
+}
+
+.icon {
+    color: blueviolet;
+    margin-bottom: 5%;
+}
+
+.icon:hover {
+    color: rgb(79, 28, 126);
+}
+
+h2 {
+    font-weight: bold !important;
+}
+
+p {
+    color: rgb(124, 118, 130);
+}
+
+/* ************************* Testimonials **************************** */
+
+#testimonial {
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    padding: 7% 15%;
+}
+
+/* ************************* Footer **************************** */
+
+#foot-bar {
+    background-color: blueviolet;
+    padding: 7% 15% 5%;
+    text-align: center;
+}
+
+.footer-icon {
+    margin: 0 2%;
+    color: white;
+}
+
+.footer-icon:hover {
+    color: rgb(37, 37, 44);
+}
+
+.footer-link {
+    text-decoration: none;
+}
+
+.copywrite {
+    color: rgb(186, 170, 170);
+}
